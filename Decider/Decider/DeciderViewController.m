@@ -32,7 +32,7 @@
 BOOL isExecuted;
 
 
-
+// animation control
 - (UIDynamicAnimator *)animator
 {
     if (!_animator) {
