@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Decider
+
+  Created by Hao Li on 6/23/15.
+  Copyright © 2015 me.howieli. All rights reserved.
+*/
+
+"NavigationBarTitle" = "一锤定音";
+"TextFieldPlaceholder" = "请在此处加入候选项";
+"HelpTitle" = "帮助";
+"HelpInfo" = "- 请确保“重力感应”开启 \n - 翻转手机进行选择 \n - 摇晃手机进行重置";
+"HelpButtonTitle" = "知道了";
+
