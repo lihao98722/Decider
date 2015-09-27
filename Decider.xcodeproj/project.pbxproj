@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F09495B1B38F7530082582F /* executeButtonInactiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09495A1B38F7530082582F /* executeButtonInactiveImage.png */; };
+		3F09495F1B38F92D0082582F /* executeButtonActiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09495D1B38F92D0082582F /* executeButtonActiveImage.png */; };
+		3F0949621B38FAD60082582F /* clearButtonInactiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0949601B38FAD60082582F /* clearButtonInactiveImage.png */; };
+		3F0949631B38FAD60082582F /* clearButtonActiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0949611B38FAD60082582F /* clearButtonActiveImage.png */; };
+		3F0949651B38FD4A0082582F /* helpButtonActiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0949641B38FD4A0082582F /* helpButtonActiveImage.png */; };
+		3F22ECD41B3D8C2400FDD3C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F22ECD31B3D8C2400FDD3C2 /* Images.xcassets */; };
+		3F22ECF21B3DA6BF00FDD3C2 /* Default-375w-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22ECF41B3DA6BF00FDD3C2 /* Default-375w-667h@2x.png */; };
+		3F22ECF61B3DA74000FDD3C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22ECF81B3DA74000FDD3C2 /* Default-568h@2x.png */; };
+		3F22ECFC1B3DA7FD00FDD3C2 /* Default-414w-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22ECFE1B3DA7FD00FDD3C2 /* Default-414w-736h@3x.png */; };
+		3F22ED021B3DA93200FDD3C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22ED041B3DA93200FDD3C2 /* Default@2x.png */; };
+		3F3A75001B36F91000A938FF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A74FF1B36F91000A938FF /* Launch Screen.storyboard */; };
+		3F461A5D1B397C7700071222 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F461A5F1B397C7700071222 /* Localizable.strings */; };
+		DA6ADF52194345BE004ADF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6ADF51194345BE004ADF4D /* Foundation.framework */; };
+		DA6ADF54194345BE004ADF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6ADF53194345BE004ADF4D /* CoreGraphics.framework */; };
+		DA6ADF56194345BE004ADF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6ADF55194345BE004ADF4D /* UIKit.framework */; };
+		DA6ADF5C194345BE004ADF4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA6ADF5A194345BE004ADF4D /* InfoPlist.strings */; };
+		DA6ADF5E194345BE004ADF4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF5D194345BE004ADF4D /* main.m */; };
+		DA6ADF62194345BE004ADF4D /* DeciderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF61194345BE004ADF4D /* DeciderAppDelegate.m */; };
+		DA6ADF65194345BE004ADF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6ADF63194345BE004ADF4D /* Main.storyboard */; };
+		DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF67194345BE004ADF4D /* DeciderViewController.m */; };
+		DA6ADF8B1943461F004ADF4D /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF881943461F004ADF4D /* AMTagListView.m */; };
+		DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF8A1943461F004ADF4D /* AMTagView.m */; };
+		DAAF94D2195072B500993951 /* DeciderVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F09495A1B38F7530082582F /* executeButtonInactiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = executeButtonInactiveImage.png; sourceTree = "<group>"; };
+		3F09495D1B38F92D0082582F /* executeButtonActiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = executeButtonActiveImage.png; sourceTree = "<group>"; };
+		3F0949601B38FAD60082582F /* clearButtonInactiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearButtonInactiveImage.png; sourceTree = "<group>"; };
+		3F0949611B38FAD60082582F /* clearButtonActiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearButtonActiveImage.png; sourceTree = "<group>"; };
+		3F0949641B38FD4A0082582F /* helpButtonActiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpButtonActiveImage.png; sourceTree = "<group>"; };
+		3F22ECD31B3D8C2400FDD3C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F22ECD51B3D8D8F00FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F22ECD61B3D8DC200FDD3C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3F22ECD71B3D907600FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F22ECF31B3DA6BF00FDD3C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default-375w-667h@2x.png"; sourceTree = "<group>"; };
+		3F22ECF51B3DA6C100FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default-375w-667h@2x.png"; sourceTree = "<group>"; };
+		3F22ECF71B3DA74000FDD3C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F22ECF91B3DA74700FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F22ECFD1B3DA7FD00FDD3C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default-414w-736h@3x.png"; sourceTree = "<group>"; };
+		3F22ECFF1B3DA7FF00FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default-414w-736h@3x.png"; sourceTree = "<group>"; };
+		3F22ED031B3DA93200FDD3C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default@2x.png"; sourceTree = "<group>"; };
+		3F22ED051B3DA93500FDD3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default@2x.png"; sourceTree = "<group>"; };
+		3F3A74FF1B36F91000A938FF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3F461A561B397A9C00071222 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3F461A581B397A9C00071222 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3F461A5A1B397B9900071222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3F461A5E1B397C7700071222 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DA6ADF4E194345BE004ADF4D /* Decider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6ADF51194345BE004ADF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA6ADF53194345BE004ADF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA6ADF55194345BE004ADF4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA6ADF59194345BE004ADF4D /* Decider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Decider-Info.plist"; sourceTree = "<group>"; };
+		DA6ADF5D194345BE004ADF4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA6ADF5F194345BE004ADF4D /* Decider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Decider-Prefix.pch"; sourceTree = "<group>"; };
+		DA6ADF60194345BE004ADF4D /* DeciderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeciderAppDelegate.h; sourceTree = "<group>"; };
+		DA6ADF61194345BE004ADF4D /* DeciderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeciderAppDelegate.m; sourceTree = "<group>"; };
+		DA6ADF64194345BE004ADF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA6ADF66194345BE004ADF4D /* DeciderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeciderViewController.h; sourceTree = "<group>"; };
+		DA6ADF67194345BE004ADF4D /* DeciderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeciderViewController.m; sourceTree = "<group>"; };
+		DA6ADF70194345BE004ADF4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA6ADF78194345BE004ADF4D /* DeciderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeciderTests-Info.plist"; sourceTree = "<group>"; };
+		DA6ADF7A194345BE004ADF4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA6ADF7C194345BE004ADF4D /* DeciderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeciderTests.m; sourceTree = "<group>"; };
+		DA6ADF871943461F004ADF4D /* AMTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTagListView.h; sourceTree = "<group>"; };
+		DA6ADF881943461F004ADF4D /* AMTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagListView.m; sourceTree = "<group>"; };
+		DA6ADF891943461F004ADF4D /* AMTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTagView.h; sourceTree = "<group>"; };
+		DA6ADF8A1943461F004ADF4D /* AMTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagView.m; sourceTree = "<group>"; };
+		DAAF94D0195072B500993951 /* DeciderVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeciderVoiceViewController.h; sourceTree = SOURCE_ROOT; };
+		DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeciderVoiceViewController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6ADF4B194345BE004ADF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6ADF54194345BE004ADF4D /* CoreGraphics.framework in Frameworks */,
+				DA6ADF56194345BE004ADF4D /* UIKit.framework in Frameworks */,
+				DA6ADF52194345BE004ADF4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0949661B391D6C0082582F /* ButtionImages */ = {
+			isa = PBXGroup;
+			children = (
+				3F0949641B38FD4A0082582F /* helpButtonActiveImage.png */,
+				3F0949601B38FAD60082582F /* clearButtonInactiveImage.png */,
+				3F0949611B38FAD60082582F /* clearButtonActiveImage.png */,
+				3F09495D1B38F92D0082582F /* executeButtonActiveImage.png */,
+				3F09495A1B38F7530082582F /* executeButtonInactiveImage.png */,
+			);
+			name = ButtionImages;
+			sourceTree = "<group>";
+		};
+		DA6ADF45194345BE004ADF4D = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF57194345BE004ADF4D /* Decider */,
+				DA6ADF76194345BE004ADF4D /* DeciderTests */,
+				DA6ADF50194345BE004ADF4D /* Frameworks */,
+				DA6ADF4F194345BE004ADF4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6ADF4F194345BE004ADF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF4E194345BE004ADF4D /* Decider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6ADF50194345BE004ADF4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF51194345BE004ADF4D /* Foundation.framework */,
+				DA6ADF53194345BE004ADF4D /* CoreGraphics.framework */,
+				DA6ADF55194345BE004ADF4D /* UIKit.framework */,
+				DA6ADF70194345BE004ADF4D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6ADF57194345BE004ADF4D /* Decider */ = {
+			isa = PBXGroup;
+			children = (
+				3F22ED041B3DA93200FDD3C2 /* Default@2x.png */,
+				3F22ECFE1B3DA7FD00FDD3C2 /* Default-414w-736h@3x.png */,
+				3F22ECF41B3DA6BF00FDD3C2 /* Default-375w-667h@2x.png */,
+				3F22ECF81B3DA74000FDD3C2 /* Default-568h@2x.png */,
+				3F0949661B391D6C0082582F /* ButtionImages */,
+				DA6ADF861943461F004ADF4D /* AMTagListView */,
+				DA6ADF63194345BE004ADF4D /* Main.storyboard */,
+				3F3A74FF1B36F91000A938FF /* Launch Screen.storyboard */,
+				DA6ADF66194345BE004ADF4D /* DeciderViewController.h */,
+				DA6ADF67194345BE004ADF4D /* DeciderViewController.m */,
+				DAAF94D0195072B500993951 /* DeciderVoiceViewController.h */,
+				DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */,
+				3F22ECD31B3D8C2400FDD3C2 /* Images.xcassets */,
+				DA6ADF58194345BE004ADF4D /* Supporting Files */,
+			);
+			path = Decider;
+			sourceTree = "<group>";
+		};
+		DA6ADF58194345BE004ADF4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF60194345BE004ADF4D /* DeciderAppDelegate.h */,
+				DA6ADF61194345BE004ADF4D /* DeciderAppDelegate.m */,
+				DA6ADF59194345BE004ADF4D /* Decider-Info.plist */,
+				DA6ADF5A194345BE004ADF4D /* InfoPlist.strings */,
+				DA6ADF5D194345BE004ADF4D /* main.m */,
+				DA6ADF5F194345BE004ADF4D /* Decider-Prefix.pch */,
+				3F461A5F1B397C7700071222 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA6ADF76194345BE004ADF4D /* DeciderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF7C194345BE004ADF4D /* DeciderTests.m */,
+				DA6ADF77194345BE004ADF4D /* Supporting Files */,
+			);
+			path = DeciderTests;
+			sourceTree = "<group>";
+		};
+		DA6ADF77194345BE004ADF4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF78194345BE004ADF4D /* DeciderTests-Info.plist */,
+				DA6ADF79194345BE004ADF4D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA6ADF861943461F004ADF4D /* AMTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				DA6ADF871943461F004ADF4D /* AMTagListView.h */,
+				DA6ADF881943461F004ADF4D /* AMTagListView.m */,
+				DA6ADF891943461F004ADF4D /* AMTagView.h */,
+				DA6ADF8A1943461F004ADF4D /* AMTagView.m */,
+			);
+			path = AMTagListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6ADF4D194345BE004ADF4D /* Decider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6ADF80194345BE004ADF4D /* Build configuration list for PBXNativeTarget "Decider" */;
+			buildPhases = (
+				DA6ADF4A194345BE004ADF4D /* Sources */,
+				DA6ADF4B194345BE004ADF4D /* Frameworks */,
+				DA6ADF4C194345BE004ADF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decider;
+			productName = Decider;
+			productReference = DA6ADF4E194345BE004ADF4D /* Decider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6ADF46194345BE004ADF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Decider;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = me.howieli;
+				TargetAttributes = {
+					DA6ADF4D194345BE004ADF4D = {
+						DevelopmentTeam = P65K4BA5FP;
+					};
+				};
+			};
+			buildConfigurationList = DA6ADF49194345BE004ADF4D /* Build configuration list for PBXProject "Decider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DA6ADF45194345BE004ADF4D;
+			productRefGroup = DA6ADF4F194345BE004ADF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6ADF4D194345BE004ADF4D /* Decider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6ADF4C194345BE004ADF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0949631B38FAD60082582F /* clearButtonActiveImage.png in Resources */,
+				3F22ED021B3DA93200FDD3C2 /* Default@2x.png in Resources */,
+				3F0949651B38FD4A0082582F /* helpButtonActiveImage.png in Resources */,
+				DA6ADF5C194345BE004ADF4D /* InfoPlist.strings in Resources */,
+				3F09495B1B38F7530082582F /* executeButtonInactiveImage.png in Resources */,
+				3F22ECF61B3DA74000FDD3C2 /* Default-568h@2x.png in Resources */,
+				3F461A5D1B397C7700071222 /* Localizable.strings in Resources */,
+				3F3A75001B36F91000A938FF /* Launch Screen.storyboard in Resources */,
+				3F0949621B38FAD60082582F /* clearButtonInactiveImage.png in Resources */,
+				3F22ECD41B3D8C2400FDD3C2 /* Images.xcassets in Resources */,
+				3F22ECFC1B3DA7FD00FDD3C2 /* Default-414w-736h@3x.png in Resources */,
+				DA6ADF65194345BE004ADF4D /* Main.storyboard in Resources */,
+				3F22ECF21B3DA6BF00FDD3C2 /* Default-375w-667h@2x.png in Resources */,
+				3F09495F1B38F92D0082582F /* executeButtonActiveImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6ADF4A194345BE004ADF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAF94D2195072B500993951 /* DeciderVoiceViewController.m in Sources */,
+				DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */,
+				DA6ADF5E194345BE004ADF4D /* main.m in Sources */,
+				DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */,
+				DA6ADF62194345BE004ADF4D /* DeciderAppDelegate.m in Sources */,
+				DA6ADF8B1943461F004ADF4D /* AMTagListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F22ECF41B3DA6BF00FDD3C2 /* Default-375w-667h@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22ECF31B3DA6BF00FDD3C2 /* zh-Hans */,
+				3F22ECF51B3DA6C100FDD3C2 /* en */,
+			);
+			name = "Default-375w-667h@2x.png";
+			sourceTree = "<group>";
+		};
+		3F22ECF81B3DA74000FDD3C2 /* Default-568h@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22ECF71B3DA74000FDD3C2 /* zh-Hans */,
+				3F22ECF91B3DA74700FDD3C2 /* en */,
+			);
+			name = "Default-568h@2x.png";
+			sourceTree = "<group>";
+		};
+		3F22ECFE1B3DA7FD00FDD3C2 /* Default-414w-736h@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22ECFD1B3DA7FD00FDD3C2 /* zh-Hans */,
+				3F22ECFF1B3DA7FF00FDD3C2 /* en */,
+			);
+			name = "Default-414w-736h@3x.png";
+			sourceTree = "<group>";
+		};
+		3F22ED041B3DA93200FDD3C2 /* Default@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22ED031B3DA93200FDD3C2 /* zh-Hans */,
+				3F22ED051B3DA93500FDD3C2 /* en */,
+			);
+			name = "Default@2x.png";
+			sourceTree = "<group>";
+		};
+		3F461A5F1B397C7700071222 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F461A5E1B397C7700071222 /* zh-Hans */,
+				3F22ECD71B3D907600FDD3C2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DA6ADF5A194345BE004ADF4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22ECD51B3D8D8F00FDD3C2 /* en */,
+				3F22ECD61B3D8DC200FDD3C2 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA6ADF63194345BE004ADF4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6ADF64194345BE004ADF4D /* Base */,
+				3F461A561B397A9C00071222 /* zh-Hans */,
+				3F461A5A1B397B9900071222 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA6ADF79194345BE004ADF4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6ADF7A194345BE004ADF4D /* en */,
+				3F461A581B397A9C00071222 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA6ADF7E194345BE004ADF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA6ADF7F194345BE004ADF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6ADF81194345BE004ADF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decider/Decider-Prefix.pch";
+				INFOPLIST_FILE = "Decider/Decider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.howieli.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA6ADF82194345BE004ADF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decider/Decider-Prefix.pch";
+				INFOPLIST_FILE = "Decider/Decider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.howieli.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6ADF49194345BE004ADF4D /* Build configuration list for PBXProject "Decider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6ADF7E194345BE004ADF4D /* Debug */,
+				DA6ADF7F194345BE004ADF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA6ADF80194345BE004ADF4D /* Build configuration list for PBXNativeTarget "Decider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6ADF81194345BE004ADF4D /* Debug */,
+				DA6ADF82194345BE004ADF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6ADF46194345BE004ADF4D /* Project object */;
+}
