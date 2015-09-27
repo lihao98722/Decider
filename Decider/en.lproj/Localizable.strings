@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Decider
+
+  Created by Hao Li on 6/23/15.
+  Copyright © 2015 me.howieli. All rights reserved.
+*/
+
+"NavigationBarTitle" = "Decider";
+"TextFieldPlaceholder" = "Please add a candidate here";
+"HelpTitle" = "Help";
+"HelpInfo" = "- Turn on the Screen Rotation Lock \n - Turn over phone for final decisions \n - Shake phone to have a second try";
+"HelpButtonTitle" = "Ok";
