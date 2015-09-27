@@ -29,7 +29,6 @@
 		DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF67194345BE004ADF4D /* DeciderViewController.m */; };
 		DA6ADF8B1943461F004ADF4D /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF881943461F004ADF4D /* AMTagListView.m */; };
 		DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF8A1943461F004ADF4D /* AMTagView.m */; };
-		DAAF94D2195072B500993951 /* DeciderVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +74,6 @@
 		DA6ADF881943461F004ADF4D /* AMTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagListView.m; sourceTree = "<group>"; };
 		DA6ADF891943461F004ADF4D /* AMTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTagView.h; sourceTree = "<group>"; };
 		DA6ADF8A1943461F004ADF4D /* AMTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagView.m; sourceTree = "<group>"; };
-		DAAF94D0195072B500993951 /* DeciderVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeciderVoiceViewController.h; sourceTree = SOURCE_ROOT; };
-		DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeciderVoiceViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +144,6 @@
 				3F3A74FF1B36F91000A938FF /* Launch Screen.storyboard */,
 				DA6ADF66194345BE004ADF4D /* DeciderViewController.h */,
 				DA6ADF67194345BE004ADF4D /* DeciderViewController.m */,
-				DAAF94D0195072B500993951 /* DeciderVoiceViewController.h */,
-				DAAF94D1195072B500993951 /* DeciderVoiceViewController.m */,
 				3F22ECD31B3D8C2400FDD3C2 /* Images.xcassets */,
 				DA6ADF58194345BE004ADF4D /* Supporting Files */,
 			);
@@ -281,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAAF94D2195072B500993951 /* DeciderVoiceViewController.m in Sources */,
 				DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */,
 				DA6ADF5E194345BE004ADF4D /* main.m in Sources */,
 				DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */,
