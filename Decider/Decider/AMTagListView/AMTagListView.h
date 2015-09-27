@@ -1,10 +1,4 @@
-//
-//  AMTagListView.h
-//  AMTagListView
-//
-//  Created by Andrea Mazzini on 20/01/14.
-//  Copyright (c) 2014 Fancy Pixel. All rights reserved.
-//
+// inspired by code repository in CocoaChina
 
 #import "AMTagView.h"
 

@@ -1,10 +1,4 @@
-//
-//  AMTagView.h
-//  AMTagListView
-//
-//  Created by Andrea Mazzini on 20/01/14.
-//  Copyright (c) 2014 Fancy Pixel. All rights reserved.
-//
+// inspired by code repository in CocoaChina
 
 #define DEGREES_TO_RADIANS(degrees)  ((3.14159265359 * degrees)/ 180)
 
