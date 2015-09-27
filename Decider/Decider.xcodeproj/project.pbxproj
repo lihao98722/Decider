@@ -28,7 +28,7 @@
 		DA6ADF65194345BE004ADF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6ADF63194345BE004ADF4D /* Main.storyboard */; };
 		DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF67194345BE004ADF4D /* DeciderViewController.m */; };
 		DA6ADF8B1943461F004ADF4D /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF881943461F004ADF4D /* AMTagListView.m */; };
-		DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF8A1943461F004ADF4D /* AMTagView.m */; };
+		DA6ADF8C1943461F004ADF4D /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADF8A1943461F004ADF4D /* TagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,8 +72,8 @@
 		DA6ADF7C194345BE004ADF4D /* DeciderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeciderTests.m; sourceTree = "<group>"; };
 		DA6ADF871943461F004ADF4D /* AMTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTagListView.h; sourceTree = "<group>"; };
 		DA6ADF881943461F004ADF4D /* AMTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagListView.m; sourceTree = "<group>"; };
-		DA6ADF891943461F004ADF4D /* AMTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTagView.h; sourceTree = "<group>"; };
-		DA6ADF8A1943461F004ADF4D /* AMTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTagView.m; sourceTree = "<group>"; };
+		DA6ADF891943461F004ADF4D /* TagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		DA6ADF8A1943461F004ADF4D /* TagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +187,8 @@
 			children = (
 				DA6ADF871943461F004ADF4D /* AMTagListView.h */,
 				DA6ADF881943461F004ADF4D /* AMTagListView.m */,
-				DA6ADF891943461F004ADF4D /* AMTagView.h */,
-				DA6ADF8A1943461F004ADF4D /* AMTagView.m */,
+				DA6ADF891943461F004ADF4D /* TagView.h */,
+				DA6ADF8A1943461F004ADF4D /* TagView.m */,
 			);
 			path = AMTagListView;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6ADF8C1943461F004ADF4D /* AMTagView.m in Sources */,
+				DA6ADF8C1943461F004ADF4D /* TagView.m in Sources */,
 				DA6ADF5E194345BE004ADF4D /* main.m in Sources */,
 				DA6ADF68194345BE004ADF4D /* DeciderViewController.m in Sources */,
 				DA6ADF62194345BE004ADF4D /* DeciderAppDelegate.m in Sources */,
